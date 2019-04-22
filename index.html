@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="row">
+            <br>
+            <div id="board-group">
+                <h1 id="title">SÄNKA SKEPP</h1>
+                <div id="playerboard-0" class="player-box">
+                    <h4 class="player_title">Player 0</h4>
+                    <p><b>Placerade: <span id="placed-0">0</span></b></p>
+                    <p><b>Sänkta: <span id="sunk-0">0</span></b></p>
+                    <p><b>Skott: <span id="shots-0">0</span></b></p>
+                </div>  
+                <div id="board">
+                </div>
+                <div id="playerboard-1" class="player-box">
+                    <h4 class="player_title">Player 1</h4>
+                    <p><b>Placerade: <span id="placed-1">0</span></b></p>
+                    <p><b>Sänkta: <span id="sunk-1">0</span></b></p>
+                    <p><b>Skott: <span id="shots-1">0</span></b></p>
+                </div>           
+            </div>
+        </div>
+        <button class="btn btn-primary" id="theButton">Starta!</button>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

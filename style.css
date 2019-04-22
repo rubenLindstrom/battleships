@@ -1,0 +1,95 @@
+html, body {
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	background: url("img/bg2.jpg");
+	background-size: cover;
+	height:100%;
+	text-align:center;
+}
+
+#title {
+	color: #051aba;
+	font-size: 45px;
+}
+
+.row {
+	text-align: center;
+	margin: auto;
+}
+
+#board-group {
+	margin: auto;
+	vertical-align: top;
+}
+
+#board {
+	box-sizing: border-box;
+	display: inline-block;
+	border: 2px groove white;
+	height:450px;
+	width:450px;
+}
+
+.board-row {
+	box-sizing: border-box;
+	height:33.333%;
+	border:1px solid #fff;
+}
+
+.board-box {
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	display:inline-block;
+	height:100%;
+}
+
+.player-box {
+	vertical-align: top;
+	box-sizing: border-box;
+	border:2px solid orange;
+	background-color: #ddd;
+	display: inline-block;
+	padding:10px;
+	text-align: left;
+	font-size: 19px;
+	height:175px;
+	width:175px;
+}
+
+.player-box p, .player-box h4 {
+	margin:0;
+	margin-bottom: 5px;
+	margin-left: 4px;
+}
+
+#player-1 {
+	border-color: green;
+}
+
+.player_title {
+	color:#333;
+}
+
+.ship {
+	background-color:#fff;
+}
+
+.empty {
+	background-color:#00d;
+}
+
+.sunk {
+	background-color: #400;
+}
+
+.miss {
+	background-color: #d7db34;
+}
+
+#theButton {
+	position: relative;
+}
